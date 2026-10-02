@@ -32,3 +32,11 @@ BASIC-bootstrap，用本地基线 M4B4 的 20 个种子（种子名单在 `bench
 ## 4. 交付
 
 `farm/results` 分支上的 `reports/FARM-01.md`：环境清单（版本、装了哪些包）、盘是否持久、并发曲线表、20 局逐局结果、推荐并发数、提效条目（最多 3 条）。推送后停下，告诉用户结果。下一步（接手 F 线易物）等本地复核后另行通知。
+
+## 5. 补充（2026-10-02，答 FARM-01 中止报告的三个问题）
+
+1. **缺文件：已补包**（`bundles/MANIFEST.json` 指向新包 `code-20261002-1610.tar.gz`）。`bench/cloud/` 下现在有 `run_lane.mjs`、`tps_tap.mjs`、`fetch_jdk.sh`、`CLOUD-01-报告.md`（来自小云端机的 `cloud/lane-x` 分支）。服务端 jar **本来就不在包里**，按 §1 从 Mojang 下载；`experiments/...server-spike` 是本地 Windows 的旧目录，不需要。
+2. **版本：按 1.16.1。** 代码里 1.21.1 的默认值是历史遗留（手册 §2 记过：脚本默认版本仍是 1.21.1，漏带参数会起 1.21.1）。**一律显式传 1.16.1**：`--mc-version 1.16.1`，并用环境变量 `MC_BENCH_JAR` / `MC_BENCH_SERVER` / `MC_BENCH_JAVA` 指向你下载的 vanilla 1.16.1 jar、本机盘上的服务器目录和 JDK。CLOUD-01 报告里有小云端机的实际调用方式，照着来。
+3. **种子：`P2C_M4B4-01` 这类字符串就是种子本身，不需要映射。** Minecraft 的 `level-seed` 接受任意字符串，非数字字符串由服务端用 `String.hashCode()` 换算成数值种子，换算是确定的。本地 M4B4 基线就是用这些字符串跑的，同为 1.16.1 时世界完全一致。CLOUD-01 的 5 局也是这么跑的。
+
+**授权**：先把 JDK 11 和 vanilla 1.16.1 服务端下载好；runner 在 `run_lane.mjs` 基础上扩展，按 §2 的端口和资源规则实现。照常推进，不用再等。
