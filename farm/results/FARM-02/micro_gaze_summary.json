@@ -1,0 +1,1332 @@
+{
+  "ticket": "FARM-02②",
+  "scenario": "gaze",
+  "label": "末影人 · 凝视守卫拦截",
+  "stamp": "MIC_GAZE_L1",
+  "n": 30,
+  "pass": 16,
+  "fail": 14,
+  "passPct": 53.3,
+  "failByWhy": {
+    "FAIL": 10,
+    "scenario_gates_failed": 4
+  },
+  "peakCombinedMb": 1668.3,
+  "judgement": "scenarios.mjs.gates/measure + micro_defense.mjs（未改一行）；verdict 直接取 result.json",
+  "rows": [
+    {
+      "trial": 1,
+      "seed": "MIC-gaze-01",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.3,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1427.8,
+      "why": null
+    },
+    {
+      "trial": 2,
+      "seed": "MIC-gaze-02",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.3,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1618.3,
+      "why": null
+    },
+    {
+      "trial": 3,
+      "seed": "MIC-gaze-03",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 44.1,
+      "bootSec": 28.3,
+      "memPeakCombinedMb": 1567.8,
+      "why": null
+    },
+    {
+      "trial": 4,
+      "seed": "MIC-gaze-04",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 39.5,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1598.1,
+      "why": "scenario_gates_failed"
+    },
+    {
+      "trial": 5,
+      "seed": "MIC-gaze-05",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 45.6,
+      "bootSec": 30.3,
+      "memPeakCombinedMb": 1567.5,
+      "why": null
+    },
+    {
+      "trial": 6,
+      "seed": "MIC-gaze-06",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 40.9,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1596.6,
+      "why": null
+    },
+    {
+      "trial": 7,
+      "seed": "MIC-gaze-07",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 45.4,
+      "bootSec": 30.3,
+      "memPeakCombinedMb": 1410.9,
+      "why": null
+    },
+    {
+      "trial": 8,
+      "seed": "MIC-gaze-08",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.5,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1574.6,
+      "why": null
+    },
+    {
+      "trial": 9,
+      "seed": "MIC-gaze-09",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.3,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1586.8,
+      "why": null
+    },
+    {
+      "trial": 10,
+      "seed": "MIC-gaze-10",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.3,
+      "bootSec": 28.3,
+      "memPeakCombinedMb": 1497,
+      "why": null
+    },
+    {
+      "trial": 11,
+      "seed": "MIC-gaze-11",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 43.5,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1479.7,
+      "why": null
+    },
+    {
+      "trial": 12,
+      "seed": "MIC-gaze-12",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.3,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1489,
+      "why": null
+    },
+    {
+      "trial": 13,
+      "seed": "MIC-gaze-13",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 41,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1503.5,
+      "why": null
+    },
+    {
+      "trial": 14,
+      "seed": "MIC-gaze-14",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.4,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1550.2,
+      "why": null
+    },
+    {
+      "trial": 15,
+      "seed": "MIC-gaze-15",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 42.8,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1434,
+      "why": null
+    },
+    {
+      "trial": 16,
+      "seed": "MIC-gaze-16",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 41.3,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1303.3,
+      "why": null
+    },
+    {
+      "trial": 17,
+      "seed": "MIC-gaze-17",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.4,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1257.3,
+      "why": null
+    },
+    {
+      "trial": 18,
+      "seed": "MIC-gaze-18",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 47.4,
+      "bootSec": 32.2,
+      "memPeakCombinedMb": 1435.2,
+      "why": null
+    },
+    {
+      "trial": 19,
+      "seed": "MIC-gaze-19",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.3,
+      "bootSec": 28.3,
+      "memPeakCombinedMb": 1400.9,
+      "why": null
+    },
+    {
+      "trial": 20,
+      "seed": "MIC-gaze-20",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 45.3,
+      "bootSec": 30.2,
+      "memPeakCombinedMb": 1522.6,
+      "why": null
+    },
+    {
+      "trial": 21,
+      "seed": "MIC-gaze-21",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 39.7,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1521,
+      "why": "scenario_gates_failed"
+    },
+    {
+      "trial": 22,
+      "seed": "MIC-gaze-22",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 43.2,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1629,
+      "why": null
+    },
+    {
+      "trial": 23,
+      "seed": "MIC-gaze-23",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 41.6,
+      "bootSec": 30.2,
+      "memPeakCombinedMb": 1480.6,
+      "why": "scenario_gates_failed"
+    },
+    {
+      "trial": 24,
+      "seed": "MIC-gaze-24",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 39.6,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1471.1,
+      "why": "scenario_gates_failed"
+    },
+    {
+      "trial": 25,
+      "seed": "MIC-gaze-25",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 40.1,
+      "bootSec": 24.2,
+      "memPeakCombinedMb": 1529.2,
+      "why": null
+    },
+    {
+      "trial": 26,
+      "seed": "MIC-gaze-26",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 46.3,
+      "bootSec": 30.3,
+      "memPeakCombinedMb": 1618.2,
+      "why": null
+    },
+    {
+      "trial": 27,
+      "seed": "MIC-gaze-27",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.2,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1626.7,
+      "why": null
+    },
+    {
+      "trial": 28,
+      "seed": "MIC-gaze-28",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.5,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1668.3,
+      "why": null
+    },
+    {
+      "trial": 29,
+      "seed": "MIC-gaze-29",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 40.8,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1324.7,
+      "why": null
+    },
+    {
+      "trial": 30,
+      "seed": "MIC-gaze-30",
+      "outcome": "MICRO_FAIL(FAIL)",
+      "verdict": "FAIL",
+      "wallSec": 44,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1460.7,
+      "why": null
+    }
+  ],
+  "detail": [
+    {
+      "trial": 1,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-01",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 2,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-02",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 3,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-03",
+      "samples": [
+        0,
+        9.599999999999403,
+        7.945033414547168
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": false,
+      "baselineDeg": 10.092291509428621,
+      "rejected": 0,
+      "pitchDeg": 9.6,
+      "endermanMoved": 7.95,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 4,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-gaze-04",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": false,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null
+    },
+    {
+      "trial": 5,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-05",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 6,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-06",
+      "samples": [
+        1,
+        -14.999999999999067,
+        7.315822172705716
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 7.32,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 7,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-07",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 8,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-08",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 9,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-09",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 10,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-10",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 11,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-11",
+      "samples": [
+        0,
+        10.64999999999934,
+        0.33506030507819484
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": false,
+      "baselineDeg": 66.57811986305933,
+      "rejected": 0,
+      "pitchDeg": 10.6,
+      "endermanMoved": 0.34,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 12,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-12",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 13,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-13",
+      "samples": [
+        1,
+        -14.999999999999067,
+        6.375220542720586
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 6.38,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 14,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-14",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 15,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-15",
+      "samples": [
+        0,
+        18.14999999999887,
+        4.180681755671835
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": false,
+      "baselineDeg": 66.58124353083375,
+      "rejected": 0,
+      "pitchDeg": 18.1,
+      "endermanMoved": 4.18,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 16,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-16",
+      "samples": [
+        0,
+        9.299999999999422,
+        1.088036272308585
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": false,
+      "baselineDeg": 10.04773915836924,
+      "rejected": 0,
+      "pitchDeg": 9.3,
+      "endermanMoved": 1.09,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 17,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-17",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 18,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-18",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 19,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-19",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0.771484375
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0.77,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 20,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-20",
+      "samples": [
+        1,
+        -14.999999999999067,
+        3.4784620431910303
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 3.48,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 21,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-gaze-21",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": false,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null
+    },
+    {
+      "trial": 22,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-22",
+      "samples": [
+        0,
+        8.399999999999478,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": false,
+      "baselineDeg": 27.111389151858184,
+      "rejected": 0,
+      "pitchDeg": 8.4,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 23,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-gaze-23",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": false,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null
+    },
+    {
+      "trial": 24,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-gaze-24",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": false,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null
+    },
+    {
+      "trial": 25,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-25",
+      "samples": [
+        1,
+        -14.999999999999067,
+        4.140979694073471
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 4.14,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 26,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-26",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 27,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-27",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0.3542355956525621
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0.35,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 28,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-28",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 29,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-gaze-29",
+      "samples": [
+        1,
+        -14.999999999999067,
+        0
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 0,
+      "endermanStillPresent": true,
+      "notAngry": true,
+      "guardInstalled": true,
+      "fuseDetector": null
+    },
+    {
+      "trial": 30,
+      "verdict": "FAIL",
+      "why": null,
+      "seed": "MIC-gaze-30",
+      "samples": [
+        1,
+        -14.999999999999067,
+        3.590259656587801
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "enderman_present": true,
+        "enderman_within_64": true,
+        "enderman_near_spawn_point": true,
+        "no_stray_mobs": true
+      },
+      "baselineStare": true,
+      "baselineDeg": 9.369385096487555,
+      "rejected": 1,
+      "pitchDeg": -15,
+      "endermanMoved": 3.59,
+      "endermanStillPresent": true,
+      "notAngry": false,
+      "guardInstalled": true,
+      "fuseDetector": null
+    }
+  ]
+}

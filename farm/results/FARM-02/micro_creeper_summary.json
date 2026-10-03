@@ -1,0 +1,1506 @@
+{
+  "ticket": "FARM-02②",
+  "scenario": "creeper",
+  "label": "苦力怕 · fuse 窗口内脱离",
+  "stamp": "MIC_CREEPER_L1",
+  "n": 30,
+  "pass": 30,
+  "fail": 0,
+  "passPct": 100,
+  "failByWhy": {},
+  "peakCombinedMb": 1772.5,
+  "judgement": "scenarios.mjs.gates/measure + micro_defense.mjs（未改一行）；verdict 直接取 result.json",
+  "rows": [
+    {
+      "trial": 1,
+      "seed": "MIC-creeper-01",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1539.5,
+      "why": null
+    },
+    {
+      "trial": 2,
+      "seed": "MIC-creeper-02",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1772.5,
+      "why": null
+    },
+    {
+      "trial": 3,
+      "seed": "MIC-creeper-03",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43,
+      "bootSec": 28.3,
+      "memPeakCombinedMb": 1432.7,
+      "why": null
+    },
+    {
+      "trial": 4,
+      "seed": "MIC-creeper-04",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 42.9,
+      "bootSec": 28.1,
+      "memPeakCombinedMb": 1319.2,
+      "why": null
+    },
+    {
+      "trial": 5,
+      "seed": "MIC-creeper-05",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44.4,
+      "bootSec": 30.2,
+      "memPeakCombinedMb": 1488.7,
+      "why": null
+    },
+    {
+      "trial": 6,
+      "seed": "MIC-creeper-06",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1365.9,
+      "why": null
+    },
+    {
+      "trial": 7,
+      "seed": "MIC-creeper-07",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 41.9,
+      "bootSec": 28.3,
+      "memPeakCombinedMb": 1500.6,
+      "why": null
+    },
+    {
+      "trial": 8,
+      "seed": "MIC-creeper-08",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.6,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1557.8,
+      "why": null
+    },
+    {
+      "trial": 9,
+      "seed": "MIC-creeper-09",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 40.9,
+      "bootSec": 26.3,
+      "memPeakCombinedMb": 1465.5,
+      "why": null
+    },
+    {
+      "trial": 10,
+      "seed": "MIC-creeper-10",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.7,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1549.6,
+      "why": null
+    },
+    {
+      "trial": 11,
+      "seed": "MIC-creeper-11",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 41.8,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1614.1,
+      "why": null
+    },
+    {
+      "trial": 12,
+      "seed": "MIC-creeper-12",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 42.7,
+      "bootSec": 28.1,
+      "memPeakCombinedMb": 1486.8,
+      "why": null
+    },
+    {
+      "trial": 13,
+      "seed": "MIC-creeper-13",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44.9,
+      "bootSec": 30.2,
+      "memPeakCombinedMb": 1446,
+      "why": null
+    },
+    {
+      "trial": 14,
+      "seed": "MIC-creeper-14",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 42.9,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1617,
+      "why": null
+    },
+    {
+      "trial": 15,
+      "seed": "MIC-creeper-15",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1580.5,
+      "why": null
+    },
+    {
+      "trial": 16,
+      "seed": "MIC-creeper-16",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 42.9,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1619.7,
+      "why": null
+    },
+    {
+      "trial": 17,
+      "seed": "MIC-creeper-17",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44.5,
+      "bootSec": 30.2,
+      "memPeakCombinedMb": 1386.1,
+      "why": null
+    },
+    {
+      "trial": 18,
+      "seed": "MIC-creeper-18",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 41.2,
+      "bootSec": 26.3,
+      "memPeakCombinedMb": 1544.4,
+      "why": null
+    },
+    {
+      "trial": 19,
+      "seed": "MIC-creeper-19",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 42.8,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1419.3,
+      "why": null
+    },
+    {
+      "trial": 20,
+      "seed": "MIC-creeper-20",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 41.5,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1472.1,
+      "why": null
+    },
+    {
+      "trial": 21,
+      "seed": "MIC-creeper-21",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 42.6,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1590.9,
+      "why": null
+    },
+    {
+      "trial": 22,
+      "seed": "MIC-creeper-22",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44.1,
+      "bootSec": 28.3,
+      "memPeakCombinedMb": 1591.6,
+      "why": null
+    },
+    {
+      "trial": 23,
+      "seed": "MIC-creeper-23",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.9,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1609.2,
+      "why": null
+    },
+    {
+      "trial": 24,
+      "seed": "MIC-creeper-24",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 43.5,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1425.6,
+      "why": null
+    },
+    {
+      "trial": 25,
+      "seed": "MIC-creeper-25",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 47.8,
+      "bootSec": 32.3,
+      "memPeakCombinedMb": 1537.5,
+      "why": null
+    },
+    {
+      "trial": 26,
+      "seed": "MIC-creeper-26",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 41.1,
+      "bootSec": 26.3,
+      "memPeakCombinedMb": 1558.5,
+      "why": null
+    },
+    {
+      "trial": 27,
+      "seed": "MIC-creeper-27",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 49.7,
+      "bootSec": 34.1,
+      "memPeakCombinedMb": 1424.5,
+      "why": null
+    },
+    {
+      "trial": 28,
+      "seed": "MIC-creeper-28",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44.6,
+      "bootSec": 30.3,
+      "memPeakCombinedMb": 1506.6,
+      "why": null
+    },
+    {
+      "trial": 29,
+      "seed": "MIC-creeper-29",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 40.8,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1597.6,
+      "why": null
+    },
+    {
+      "trial": 30,
+      "seed": "MIC-creeper-30",
+      "outcome": "MICRO_PASS",
+      "verdict": "PASS",
+      "wallSec": 44.9,
+      "bootSec": 30.2,
+      "memPeakCombinedMb": 1637.1,
+      "why": null
+    }
+  ],
+  "detail": [
+    {
+      "trial": 1,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-01",
+      "samples": [
+        6.41
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": null,
+      "maxHdist": 6.41,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端【不可用】：width 始终不变（creep 照常 fuse 并炸）"
+    },
+    {
+      "trial": 2,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-02",
+      "samples": [
+        3037,
+        7.06
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.48,
+      "escapeMs": 3037,
+      "maxHdist": 7.06,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 3,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-03",
+      "samples": [
+        3023,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3023,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 4,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-04",
+      "samples": [
+        3018,
+        7.32
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3018,
+      "maxHdist": 7.32,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 5,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-05",
+      "samples": [
+        3018,
+        7.25
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3018,
+      "maxHdist": 7.25,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 6,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-06",
+      "samples": [
+        3010,
+        7.26
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3010,
+      "maxHdist": 7.26,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 7,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-07",
+      "samples": [
+        5.2
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 3.63,
+      "escapeMs": null,
+      "maxHdist": 5.2,
+      "rePlans": 1,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 8,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-08",
+      "samples": [
+        3021,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3021,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 9,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-09",
+      "samples": [
+        3020,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3020,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 10,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-10",
+      "samples": [
+        7.12
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.29,
+      "escapeMs": null,
+      "maxHdist": 7.12,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 11,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-11",
+      "samples": [
+        6.63
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": null,
+      "maxHdist": 6.63,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端【不可用】：width 始终不变（creep 照常 fuse 并炸）"
+    },
+    {
+      "trial": 12,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-12",
+      "samples": [
+        3018,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.15,
+      "escapeMs": 3018,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 13,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-13",
+      "samples": [
+        3059,
+        7.28
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3059,
+      "maxHdist": 7.28,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 14,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-14",
+      "samples": [
+        3025,
+        7.32
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3025,
+      "maxHdist": 7.32,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 15,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-15",
+      "samples": [
+        3012,
+        7.32
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3012,
+      "maxHdist": 7.32,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 16,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-16",
+      "samples": [
+        3019,
+        7.28
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3019,
+      "maxHdist": 7.28,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 17,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-17",
+      "samples": [
+        3017,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.48,
+      "escapeMs": 3017,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 18,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-18",
+      "samples": [
+        7.02
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.15,
+      "escapeMs": null,
+      "maxHdist": 7.02,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 19,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-19",
+      "samples": [
+        2958,
+        7.54
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.02,
+      "escapeMs": 2958,
+      "maxHdist": 7.54,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 20,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-20",
+      "samples": [
+        3070,
+        7.12
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.96,
+      "escapeMs": 3070,
+      "maxHdist": 7.12,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 600,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 21,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-21",
+      "samples": [
+        7.04
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.02,
+      "escapeMs": null,
+      "maxHdist": 7.04,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 22,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-22",
+      "samples": [
+        6.41
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": null,
+      "maxHdist": 6.41,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端【不可用】：width 始终不变（creep 照常 fuse 并炸）"
+    },
+    {
+      "trial": 23,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-23",
+      "samples": [
+        6.63
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": null,
+      "maxHdist": 6.63,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端【不可用】：width 始终不变（creep 照常 fuse 并炸）"
+    },
+    {
+      "trial": 24,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-24",
+      "samples": [
+        6.24
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.48,
+      "escapeMs": null,
+      "maxHdist": 6.24,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端【不可用】：width 始终不变（creep 照常 fuse 并炸）"
+    },
+    {
+      "trial": 25,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-25",
+      "samples": [
+        7.12
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.15,
+      "escapeMs": null,
+      "maxHdist": 7.12,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 26,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-26",
+      "samples": [
+        3019,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3019,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 27,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-27",
+      "samples": [
+        6.8
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.02,
+      "escapeMs": null,
+      "maxHdist": 6.8,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端【不可用】：width 始终不变（creep 照常 fuse 并炸）"
+    },
+    {
+      "trial": 28,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-28",
+      "samples": [
+        3064,
+        7.28
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3064,
+      "maxHdist": 7.28,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 29,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-29",
+      "samples": [
+        3114,
+        7.04
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 5.96,
+      "escapeMs": 3114,
+      "maxHdist": 7.04,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    },
+    {
+      "trial": 30,
+      "verdict": "PASS",
+      "why": null,
+      "seed": "MIC-creeper-30",
+      "samples": [
+        3021,
+        7.37
+      ],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "creeper_present": true,
+        "creeper_far_enough": true,
+        "creeper_within_platform": true,
+        "bot_unarmed": true,
+        "no_stray_mobs": true
+      },
+      "damageTaken": 0,
+      "hpBefore": 20,
+      "hpAfter": 20,
+      "survived": true,
+      "distAtTrigger": 4.88,
+      "escapeMs": 3021,
+      "maxHdist": 7.37,
+      "rePlans": 2,
+      "targetRange": 9,
+      "safeRange": 7.5,
+      "triggerWaitMs": 0,
+      "fuseBudgetMs": 1500,
+      "fuseDetector": "包围盒判据在 1.16.1 客户端可用"
+    }
+  ]
+}
