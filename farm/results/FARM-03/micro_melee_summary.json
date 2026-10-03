@@ -1,0 +1,1632 @@
+{
+  "ticket": "FARM-03",
+  "scenario": "melee",
+  "label": "僵尸近战 · MeleeTick 冷却门与击杀（NoAI 固定靶）",
+  "stamp": "MIC_MELEE_F03",
+  "n": 3,
+  "pass": 0,
+  "fail": 3,
+  "passPct": 0,
+  "failByWhy": {
+    "no_swings": 3
+  },
+  "peakCombinedMb": 1489.8,
+  "code": {
+    "bundle": "code-20261003-1336.tar.gz",
+    "sha256": "7564a81ea7853f633b2ccf4477b6650fe66ec282e919cfdf8ff88b1d1f193ed9",
+    "aidqq/s0-survival": "ecaa5d0",
+    "bench": "f5663f9"
+  },
+  "judgement": "scenarios.mjs.gates/measure + micro_defense.mjs（未改一行）；verdict 直接取 result.json",
+  "rows": [
+    {
+      "trial": 1,
+      "seed": "MIC-melee-01",
+      "outcome": "MICRO_FAIL(no_swings)",
+      "verdict": "FAIL",
+      "wallSec": 53.8,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1354.5,
+      "why": "no_swings"
+    },
+    {
+      "trial": 2,
+      "seed": "MIC-melee-02",
+      "outcome": "MICRO_FAIL(no_swings)",
+      "verdict": "FAIL",
+      "wallSec": 50.7,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1489.8,
+      "why": "no_swings"
+    },
+    {
+      "trial": 3,
+      "seed": "MIC-melee-03",
+      "outcome": "MICRO_FAIL(no_swings)",
+      "verdict": "FAIL",
+      "wallSec": 51.7,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1327.4,
+      "why": "no_swings"
+    }
+  ],
+  "detail": [
+    {
+      "trial": 1,
+      "verdict": "FAIL",
+      "why": "no_swings",
+      "seed": "MIC-melee-01",
+      "samples": [],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "zombies_present": true,
+        "zombies_in_melee_range": true,
+        "weapon_is_stone_sword": true,
+        "bot_hp_enough_to_measure": true,
+        "no_stray_mobs": true
+      },
+      "swings": 1,
+      "minSwings": 2,
+      "enoughSwings": false,
+      "cleared": true,
+      "died": false,
+      "minGapMs": null,
+      "medianGapMs": null,
+      "gapOk": true,
+      "weaponCooldownMs": 625,
+      "gapFloorMs": 560,
+      "fuseDetector": null,
+      "baseline": {
+        "at": "measure_start",
+        "hp": 20,
+        "botEye": [
+          8.5,
+          201,
+          8.5
+        ],
+        "visibleHostiles": 1,
+        "perEntity": [
+          {
+            "id": 297,
+            "name": "zombie",
+            "type": "mob",
+            "eyeDist": 2.24,
+            "isHostile": true,
+            "canSee": true
+          }
+        ]
+      },
+      "noTargetDiag": {
+        "entitiesTotal": 50,
+        "perEntity": [
+          {
+            "id": 66,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 178.21,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 80,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 193.95,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 81,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 192.87,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 135,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 160.13,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 136,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 158.87,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 137,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 160.89,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 138,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 165.67,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 139,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 163.37,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 140,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 163.62,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 141,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 156.82,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 142,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 153.8,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 147,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 154.49,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 148,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 158.92,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 149,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 162.45,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 150,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 157.71,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 155,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 151.77,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 156,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 153.58,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 157,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 149.49,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 158,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 154.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 160,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 153.23,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 189,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 146.27,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 190,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 151.87,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 191,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 152.14,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 192,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 154.74,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 193,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 151.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 194,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 153.08,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 195,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 153.3,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 196,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 152.81,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 197,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 154.1,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 212,
+            "name": "player",
+            "type": "player",
+            "eyeDist": 0,
+            "isHostile": false,
+            "canSee": true
+          },
+          {
+            "id": 272,
+            "name": "llama",
+            "type": "mob",
+            "eyeDist": 135.66,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 273,
+            "name": "llama",
+            "type": "mob",
+            "eyeDist": 136.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 274,
+            "name": "llama",
+            "type": "mob",
+            "eyeDist": 134.72,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 279,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 131.31,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 280,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 130.45,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 281,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 131.07,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 282,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 132.92,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 289,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 136.3,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 290,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 137.05,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 291,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 139.52,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 292,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 137.47,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 302,
+            "name": "llama",
+            "type": "mob",
+            "eyeDist": 159.65,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 303,
+            "name": "llama",
+            "type": "mob",
+            "eyeDist": 156.44,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 308,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 163.53,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 309,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 164.1,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 310,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 165.37,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 311,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 164.72,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 314,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 192.04,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 315,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 188.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 317,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 216.26,
+            "isHostile": false,
+            "canSee": false
+          }
+        ],
+        "botEye": [
+          8.5,
+          202.62,
+          8.5
+        ],
+        "blockUnderBot": "gold_block",
+        "visibleHostiles": 0
+      }
+    },
+    {
+      "trial": 2,
+      "verdict": "FAIL",
+      "why": "no_swings",
+      "seed": "MIC-melee-02",
+      "samples": [],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "zombies_present": true,
+        "zombies_in_melee_range": true,
+        "weapon_is_stone_sword": true,
+        "bot_hp_enough_to_measure": true,
+        "no_stray_mobs": true
+      },
+      "swings": 1,
+      "minSwings": 2,
+      "enoughSwings": false,
+      "cleared": true,
+      "died": false,
+      "minGapMs": null,
+      "medianGapMs": null,
+      "gapOk": true,
+      "weaponCooldownMs": 625,
+      "gapFloorMs": 560,
+      "fuseDetector": null,
+      "baseline": {
+        "at": "measure_start",
+        "hp": 20,
+        "botEye": [
+          8.5,
+          201,
+          8.5
+        ],
+        "visibleHostiles": 1,
+        "perEntity": [
+          {
+            "id": 306,
+            "name": "zombie",
+            "type": "mob",
+            "eyeDist": 2.24,
+            "isHostile": true,
+            "canSee": true
+          }
+        ]
+      },
+      "noTargetDiag": {
+        "entitiesTotal": 81,
+        "perEntity": [
+          {
+            "id": 9,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 188.13,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 10,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 185.97,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 11,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 186.04,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 12,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 181.68,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 13,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 182.58,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 27,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 202.43,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 37,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 155.39,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 53,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 161.33,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 54,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 147.67,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 58,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 191.88,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 59,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 194.92,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 60,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 196.65,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 61,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 201.48,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 66,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 153.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 67,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 154.18,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 68,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 149.73,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 69,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 152.19,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 71,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 231.08,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 77,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 153.99,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 78,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 153.62,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 82,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 161.53,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 83,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 160.04,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 84,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 158.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 91,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 175.01,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 92,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 176.09,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 93,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 176.43,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 100,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 133.44,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 101,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 134.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 110,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 182.7,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 111,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 181.36,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 112,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 178.71,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 113,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 171.96,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 114,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 178.75,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 115,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 169.65,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 186,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 138.63,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 187,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 138.19,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 188,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 137.99,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 193,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 213.14,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 219,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 187.68,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 220,
+            "name": "player",
+            "type": "player",
+            "eyeDist": 0,
+            "isHostile": false,
+            "canSee": true
+          },
+          {
+            "id": 233,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 189.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 249,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 217.39,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 250,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 215.03,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 251,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 185.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 252,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 205.6,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 261,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 202.72,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 264,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 185.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 273,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 213.99,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 283,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 182.68,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 291,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 153.96,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 292,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 158.51,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 294,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 203.68,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 299,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 204.13,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 300,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 193.27,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 304,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 213.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 305,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 216.13,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 315,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 175.42,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 316,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 173.87,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 317,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 175.42,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 318,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 173.57,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 319,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 172.94,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 320,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 177.46,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 321,
+            "name": "rabbit",
+            "type": "mob",
+            "eyeDist": 174.93,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 322,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 218.44,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 324,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 226.03,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 325,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 241.38,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 328,
+            "name": "chest_minecart",
+            "type": "mob",
+            "eyeDist": 221.35,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 329,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 196.68,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 330,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 196.37,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 348,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 198.15,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 349,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 197.23,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 354,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 198.05,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 364,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 198.27,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 374,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 200.33,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 382,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 199.81,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 383,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 199.86,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 390,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 195.62,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 391,
+            "name": "item",
+            "type": "mob",
+            "eyeDist": 195.71,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 403,
+            "name": "falling_block",
+            "type": "mob",
+            "eyeDist": 238.34,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 407,
+            "name": "falling_block",
+            "type": "mob",
+            "eyeDist": 237.98,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 409,
+            "name": "falling_block",
+            "type": "mob",
+            "eyeDist": 237.62,
+            "isHostile": false,
+            "canSee": false
+          }
+        ],
+        "botEye": [
+          8.5,
+          202.62,
+          8.5
+        ],
+        "blockUnderBot": "gold_block",
+        "visibleHostiles": 0
+      }
+    },
+    {
+      "trial": 3,
+      "verdict": "FAIL",
+      "why": "no_swings",
+      "seed": "MIC-melee-03",
+      "samples": [],
+      "commonGates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true
+      },
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "zombies_present": true,
+        "zombies_in_melee_range": true,
+        "weapon_is_stone_sword": true,
+        "bot_hp_enough_to_measure": true,
+        "no_stray_mobs": true
+      },
+      "swings": 1,
+      "minSwings": 2,
+      "enoughSwings": false,
+      "cleared": true,
+      "died": false,
+      "minGapMs": null,
+      "medianGapMs": null,
+      "gapOk": true,
+      "weaponCooldownMs": 625,
+      "gapFloorMs": 560,
+      "fuseDetector": null,
+      "baseline": {
+        "at": "measure_start",
+        "hp": 20,
+        "botEye": [
+          8.5,
+          201,
+          8.5
+        ],
+        "visibleHostiles": 1,
+        "perEntity": [
+          {
+            "id": 223,
+            "name": "zombie",
+            "type": "mob",
+            "eyeDist": 2.24,
+            "isHostile": true,
+            "canSee": true
+          }
+        ]
+      },
+      "noTargetDiag": {
+        "entitiesTotal": 41,
+        "perEntity": [
+          {
+            "id": 20,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 177.65,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 56,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 148.45,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 57,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 143.76,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 58,
+            "name": "pig",
+            "type": "mob",
+            "eyeDist": 150.05,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 59,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 173.8,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 60,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 175.67,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 61,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 173.93,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 62,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 175.29,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 63,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 145.59,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 64,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 142.24,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 65,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 142.3,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 66,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 141.6,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 80,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 127.05,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 81,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 127.58,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 82,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 127.37,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 83,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 127,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 88,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 151.77,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 89,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 152.04,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 90,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 147.54,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 91,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 154.21,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 104,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 128.85,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 105,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 128.81,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 106,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 128.98,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 107,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 128.46,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 118,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 180.97,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 119,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 180.82,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 139,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 179.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 179,
+            "name": "player",
+            "type": "player",
+            "eyeDist": 0,
+            "isHostile": false,
+            "canSee": true
+          },
+          {
+            "id": 213,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 131.62,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 214,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 130.22,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 215,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 129.76,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 216,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 129.38,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 220,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 149.91,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 221,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 142.31,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 222,
+            "name": "cow",
+            "type": "mob",
+            "eyeDist": 141.05,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 228,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 175.79,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 229,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 172.44,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 230,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 171.17,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 231,
+            "name": "sheep",
+            "type": "mob",
+            "eyeDist": 171.04,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 234,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 173.69,
+            "isHostile": false,
+            "canSee": false
+          },
+          {
+            "id": 235,
+            "name": "chicken",
+            "type": "mob",
+            "eyeDist": 173.69,
+            "isHostile": false,
+            "canSee": false
+          }
+        ],
+        "botEye": [
+          8.5,
+          202.62,
+          8.5
+        ],
+        "blockUnderBot": "gold_block",
+        "visibleHostiles": 0
+      }
+    }
+  ]
+}

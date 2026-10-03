@@ -1,0 +1,124 @@
+{
+  "ticket": "FARM-03",
+  "scenario": "skeleton",
+  "label": "骷髅 · 掩体断视线与举盾推进（柱体 201..203）",
+  "stamp": "MIC_SKELETON_F03",
+  "n": 3,
+  "pass": 0,
+  "fail": 3,
+  "passPct": 0,
+  "failByWhy": {
+    "scenario_gates_failed": 3
+  },
+  "peakCombinedMb": 1517.6,
+  "code": {
+    "bundle": "code-20261003-1336.tar.gz",
+    "sha256": "7564a81ea7853f633b2ccf4477b6650fe66ec282e919cfdf8ff88b1d1f193ed9",
+    "aidqq/s0-survival": "ecaa5d0",
+    "bench": "f5663f9"
+  },
+  "judgement": "scenarios.mjs.gates/measure + micro_defense.mjs（未改一行）；verdict 直接取 result.json",
+  "rows": [
+    {
+      "trial": 1,
+      "seed": "MIC-skeleton-01",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 38.2,
+      "bootSec": 26.2,
+      "memPeakCombinedMb": 1517.6,
+      "why": "scenario_gates_failed"
+    },
+    {
+      "trial": 2,
+      "seed": "MIC-skeleton-02",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 45,
+      "bootSec": 32.3,
+      "memPeakCombinedMb": 1413.5,
+      "why": "scenario_gates_failed"
+    },
+    {
+      "trial": 3,
+      "seed": "MIC-skeleton-03",
+      "outcome": "MICRO_FAIL(scenario_gates_failed)",
+      "verdict": "FAIL",
+      "wallSec": 40.2,
+      "bootSec": 28.2,
+      "memPeakCombinedMb": 1507.8,
+      "why": "scenario_gates_failed"
+    }
+  ],
+  "detail": [
+    {
+      "trial": 1,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-skeleton-01",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "skeleton_present": true,
+        "cover_pillar_built": true,
+        "pillar_blocks_initial_los": false,
+        "shield_in_inventory": true,
+        "skeleton_in_range": true,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null,
+      "baseline": null,
+      "noTargetDiag": null
+    },
+    {
+      "trial": 2,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-skeleton-02",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "skeleton_present": true,
+        "cover_pillar_built": true,
+        "pillar_blocks_initial_los": false,
+        "shield_in_inventory": true,
+        "skeleton_in_range": true,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null,
+      "baseline": null,
+      "noTargetDiag": null
+    },
+    {
+      "trial": 3,
+      "verdict": "FAIL",
+      "why": "scenario_gates_failed",
+      "seed": "MIC-skeleton-03",
+      "samples": null,
+      "commonGates": {},
+      "gates": {
+        "truth_marker_under_center": true,
+        "bot_on_arena": true,
+        "under_foot_is_solid": true,
+        "head_is_air": true,
+        "skeleton_present": true,
+        "cover_pillar_built": true,
+        "pillar_blocks_initial_los": false,
+        "shield_in_inventory": true,
+        "skeleton_in_range": true,
+        "no_stray_mobs": true
+      },
+      "fuseDetector": null,
+      "baseline": null,
+      "noTargetDiag": null
+    }
+  ]
+}
