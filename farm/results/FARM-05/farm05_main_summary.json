@@ -1,0 +1,417 @@
+{
+  "run": "runs/FARM05_MAIN",
+  "farm_summary": {
+    "stamp": "FARM05_MAIN",
+    "stage": "basic-bootstrap",
+    "lanes": 6,
+    "lanesRequested": null,
+    "totalTrials": 20,
+    "success": 4,
+    "laggedGames": 4,
+    "peakCombinedMb": 1810.8
+  },
+  "outcome_distribution": {
+    "SUCCESS": 4,
+    "FAIL(NO_PROGRESS_ABORT)": 4,
+    "SERVER_FAIL": 11,
+    "NO_RESULT": 1
+  },
+  "boot_criteria": {
+    "success_marker": "server.log contains 'Done ('",
+    "boot_timeout_ms": 300000,
+    "boot_tries": 3,
+    "note": "SERVER_FAIL = 起服未达 Done( 且崩溃重试耗尽；单独列出，不计入合成成败"
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "seed": "P2C_M4B4-01",
+      "outcome": "SUCCESS",
+      "durationSec": 79.1,
+      "wallSec": 124.5,
+      "tps": 19.98,
+      "laged": false,
+      "memPeakCombinedMb": 1656.2
+    },
+    {
+      "trial": 2,
+      "seed": "P2C_M4B4-02",
+      "outcome": "FAIL(NO_PROGRESS_ABORT)",
+      "wallSec": 504,
+      "tps": 12.16,
+      "laged": true,
+      "memPeakCombinedMb": 1695.9
+    },
+    {
+      "trial": 3,
+      "seed": "P2C_M4B4-03",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 4,
+      "seed": "P2C_M4B4-04",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 5,
+      "seed": "P2C_M4B4-05",
+      "outcome": "SUCCESS",
+      "durationSec": 67.9,
+      "wallSec": 126.5,
+      "tps": 20.36,
+      "laged": false,
+      "memPeakCombinedMb": 1592
+    },
+    {
+      "trial": 6,
+      "seed": "P2C_M4B4-06",
+      "outcome": "FAIL(NO_PROGRESS_ABORT)",
+      "wallSec": 450.5,
+      "tps": 10.45,
+      "laged": true,
+      "memPeakCombinedMb": 1668
+    },
+    {
+      "trial": 7,
+      "seed": "P2C_M4B4-08",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 8,
+      "seed": "P2C_M4B4-09",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 9,
+      "seed": "P2C_M4B4-10",
+      "outcome": "SUCCESS",
+      "durationSec": 145,
+      "wallSec": 211.1,
+      "tps": 19.13,
+      "laged": false,
+      "memPeakCombinedMb": 1490.3
+    },
+    {
+      "trial": 10,
+      "seed": "P2C_M4B4-07",
+      "outcome": "NO_RESULT",
+      "wallSec": 634.9,
+      "tps": null,
+      "laged": false,
+      "memPeakCombinedMb": 1551.2
+    },
+    {
+      "trial": 11,
+      "seed": "P2C_M4B4-11",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 12,
+      "seed": "P2C_M4B4-12",
+      "outcome": "FAIL(NO_PROGRESS_ABORT)",
+      "wallSec": 387.6,
+      "tps": 14.98,
+      "laged": true,
+      "memPeakCombinedMb": 1810.8
+    },
+    {
+      "trial": 13,
+      "seed": "P2C_M4B4-13",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 14,
+      "seed": "P2C_M4B4-14",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 15,
+      "seed": "P2C_M4B4-15",
+      "outcome": "FAIL(NO_PROGRESS_ABORT)",
+      "wallSec": 362.2,
+      "tps": 9.39,
+      "laged": true,
+      "memPeakCombinedMb": 1719.2
+    },
+    {
+      "trial": 16,
+      "seed": "P2C_M4B4-16",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 17,
+      "seed": "P2C_M4B4-17",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 18,
+      "seed": "P2C_M4B4-18",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 19,
+      "seed": "P2C_M4B4-20",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 20,
+      "seed": "P2C_M4B4-19",
+      "outcome": "SUCCESS",
+      "durationSec": 65.2,
+      "wallSec": 331.7,
+      "tps": 19.98,
+      "laged": false,
+      "memPeakCombinedMb": 1692.5
+    }
+  ],
+  "boot_by_trial": {
+    "1": {
+      "done": true,
+      "done_ms": 21655.0,
+      "last_line": "[20:47:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved",
+      "spawn_pct": 86
+    },
+    "2": {
+      "done": true,
+      "done_ms": 95792.0,
+      "last_line": "2026-10-03 20:55:14,263 Server thread WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger",
+      "spawn_pct": 99
+    },
+    "3": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:00:37] [Worker-Main-10/INFO]: Preparing spawn area: 34%",
+      "spawn_pct": 34
+    },
+    "4": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:05:41] [Server thread/INFO]: Preparing level \"spike_world\"",
+      "spawn_pct": null
+    },
+    "5": {
+      "done": true,
+      "done_ms": 25003.0,
+      "last_line": "[20:47:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved",
+      "spawn_pct": 98
+    },
+    "6": {
+      "done": true,
+      "done_ms": 83294.0,
+      "last_line": "2026-10-03 20:55:14,173 Server thread WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger",
+      "spawn_pct": 93
+    },
+    "7": {
+      "done": true,
+      "done_ms": 445396.0,
+      "last_line": "[21:04:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7760ms or 155 ticks behind",
+      "spawn_pct": 90
+    },
+    "8": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:05:31] [Server thread/INFO]: Generating keypair",
+      "spawn_pct": null
+    },
+    "9": {
+      "done": true,
+      "done_ms": 29199.0,
+      "last_line": "[20:49:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved",
+      "spawn_pct": 97
+    },
+    "10": {
+      "done": true,
+      "done_ms": 45197.0,
+      "last_line": "2026-10-03 20:55:14,169 Netty Epoll Server IO #1 WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger",
+      "spawn_pct": 94
+    },
+    "11": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:05:40] [Server thread/INFO]: Preparing level \"spike_world\"",
+      "spawn_pct": null
+    },
+    "12": {
+      "done": true,
+      "done_ms": 102796.0,
+      "last_line": "[20:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind",
+      "spawn_pct": 99
+    },
+    "13": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:03:42] [Worker-Main-9/INFO]: Preparing spawn area: 87%",
+      "spawn_pct": 87
+    },
+    "14": {
+      "done": false,
+      "done_ms": null,
+      "last_line": null,
+      "spawn_pct": null
+    },
+    "15": {
+      "done": true,
+      "done_ms": 102434.0,
+      "last_line": "2026-10-03 20:55:14,175 Server thread WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger",
+      "spawn_pct": 94
+    },
+    "16": {
+      "done": true,
+      "done_ms": 449197.0,
+      "last_line": "[21:04:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3749ms or 74 ticks behind",
+      "spawn_pct": 96
+    },
+    "17": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:05:04] [Worker-Main-11/INFO]: Loaded 927 advancements",
+      "spawn_pct": null
+    },
+    "18": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[20:57:23] [Worker-Main-10/INFO]: Preparing spawn area: 58%",
+      "spawn_pct": 58
+    },
+    "19": {
+      "done": false,
+      "done_ms": null,
+      "last_line": "[21:05:09] [Worker-Main-8/INFO]: Preparing spawn area: 58%",
+      "spawn_pct": 58
+    },
+    "20": {
+      "done": true,
+      "done_ms": 25712.0,
+      "last_line": "[21:07:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved",
+      "spawn_pct": 93
+    }
+  },
+  "server_fail_trials": [
+    3,
+    4,
+    7,
+    8,
+    11,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19
+  ],
+  "craft_events_by_trial": {
+    "1": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "spruce_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    },
+    "2": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "birch_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    },
+    "5": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "acacia_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    },
+    "6": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "spruce_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    },
+    "9": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "oak_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    },
+    "12": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "acacia_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    },
+    "20": {
+      "no_gain": {},
+      "fail": {},
+      "ok": {
+        "oak_planks": 3,
+        "crafting_table": 1,
+        "stick": 1,
+        "wooden_pickaxe": 1
+      },
+      "smelt": {}
+    }
+  },
+  "craft_totals": {
+    "no_gain_reasons": {},
+    "fail_errors": {},
+    "ok_items": {
+      "spruce_planks": 6,
+      "crafting_table": 7,
+      "stick": 7,
+      "wooden_pickaxe": 7,
+      "birch_planks": 3,
+      "acacia_planks": 6,
+      "oak_planks": 6
+    },
+    "smelt_events": {}
+  }
+}
