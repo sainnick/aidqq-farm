@@ -1,0 +1,283 @@
+{
+  "stamp": "CONSIST20",
+  "stage": "basic-bootstrap",
+  "lanes": 5,
+  "mcVersion": "1.16.1",
+  "totalTrials": 20,
+  "success": 19,
+  "laggedGames": 2,
+  "peakCombinedMb": 1713.5,
+  "lanesDetail": [
+    {
+      "lane": "Y0",
+      "port": 25600,
+      "success": 4,
+      "total": 4,
+      "lagged": 1,
+      "peakCombinedMb": 1602.3,
+      "rows": [
+        {
+          "trial": 1,
+          "seed": "P2C_M4B4-01",
+          "outcome": "SUCCESS",
+          "durationSec": 104.5,
+          "wallSec": 139.9,
+          "bootSec": 24.2,
+          "tps": 20.02,
+          "laged": false,
+          "memPeakCombinedMb": 1520.8
+        },
+        {
+          "trial": 2,
+          "seed": "P2C_M4B4-02",
+          "outcome": "SUCCESS",
+          "durationSec": 81.5,
+          "wallSec": 180.6,
+          "bootSec": 36.5,
+          "tps": 17.89,
+          "laged": true,
+          "memPeakCombinedMb": 1477.7
+        },
+        {
+          "trial": 3,
+          "seed": "P2C_M4B4-03",
+          "outcome": "SUCCESS",
+          "durationSec": 67.8,
+          "wallSec": 174.1,
+          "bootSec": 36.4,
+          "tps": 19.87,
+          "laged": false,
+          "memPeakCombinedMb": 1602.3
+        },
+        {
+          "trial": 4,
+          "seed": "P2C_M4B4-04",
+          "outcome": "SUCCESS",
+          "durationSec": 58.2,
+          "wallSec": 130.7,
+          "bootSec": 34.4,
+          "tps": 19.97,
+          "laged": false,
+          "memPeakCombinedMb": 1488.5
+        }
+      ]
+    },
+    {
+      "lane": "Y1",
+      "port": 25601,
+      "success": 3,
+      "total": 4,
+      "lagged": 0,
+      "peakCombinedMb": 1713.5,
+      "rows": [
+        {
+          "trial": 5,
+          "seed": "P2C_M4B4-05",
+          "outcome": "SUCCESS",
+          "durationSec": 65.3,
+          "wallSec": 104.3,
+          "bootSec": 28.2,
+          "tps": 20.09,
+          "laged": false,
+          "memPeakCombinedMb": 1611.8
+        },
+        {
+          "trial": 6,
+          "seed": "P2C_M4B4-06",
+          "outcome": "FAIL(TOOL_MISSING)",
+          "durationSec": 56.5,
+          "wallSec": 135.5,
+          "bootSec": 36.4,
+          "tps": 18.19,
+          "laged": false,
+          "memPeakCombinedMb": 1542.4
+        },
+        {
+          "trial": 7,
+          "seed": "P2C_M4B4-08",
+          "outcome": "SUCCESS",
+          "durationSec": 65.9,
+          "wallSec": 130.5,
+          "bootSec": 34.3,
+          "tps": 20.06,
+          "laged": false,
+          "memPeakCombinedMb": 1713.5
+        },
+        {
+          "trial": 8,
+          "seed": "P2C_M4B4-09",
+          "outcome": "SUCCESS",
+          "durationSec": 79.2,
+          "wallSec": 145,
+          "bootSec": 36.4,
+          "tps": 20.1,
+          "laged": false,
+          "memPeakCombinedMb": 1519.1
+        }
+      ]
+    },
+    {
+      "lane": "Y2",
+      "port": 25602,
+      "success": 4,
+      "total": 4,
+      "lagged": 0,
+      "peakCombinedMb": 1680.2,
+      "rows": [
+        {
+          "trial": 9,
+          "seed": "P2C_M4B4-10",
+          "outcome": "SUCCESS",
+          "durationSec": 173.2,
+          "wallSec": 216.6,
+          "bootSec": 32.3,
+          "tps": 18.3,
+          "laged": false,
+          "memPeakCombinedMb": 1622.9
+        },
+        {
+          "trial": 10,
+          "seed": "P2C_M4B4-07",
+          "outcome": "SUCCESS",
+          "durationSec": 288.4,
+          "wallSec": 375,
+          "bootSec": 30.3,
+          "tps": 20.03,
+          "laged": false,
+          "memPeakCombinedMb": 1680.2
+        },
+        {
+          "trial": 11,
+          "seed": "P2C_M4B4-11",
+          "outcome": "SUCCESS",
+          "durationSec": 72.5,
+          "wallSec": 112,
+          "bootSec": 30.2,
+          "tps": 19.98,
+          "laged": false,
+          "memPeakCombinedMb": 1545
+        },
+        {
+          "trial": 12,
+          "seed": "P2C_M4B4-12",
+          "outcome": "SUCCESS",
+          "durationSec": 65.1,
+          "wallSec": 100.5,
+          "bootSec": 26.2,
+          "tps": 19.98,
+          "laged": false,
+          "memPeakCombinedMb": 1536.2
+        }
+      ]
+    },
+    {
+      "lane": "Y3",
+      "port": 25603,
+      "success": 4,
+      "total": 4,
+      "lagged": 0,
+      "peakCombinedMb": 1696,
+      "rows": [
+        {
+          "trial": 13,
+          "seed": "P2C_M4B4-13",
+          "outcome": "SUCCESS",
+          "durationSec": 72.4,
+          "wallSec": 120.1,
+          "bootSec": 34.3,
+          "tps": 20.05,
+          "laged": false,
+          "memPeakCombinedMb": 1459.1
+        },
+        {
+          "trial": 14,
+          "seed": "P2C_M4B4-14",
+          "outcome": "SUCCESS",
+          "durationSec": 68.9,
+          "wallSec": 157.7,
+          "bootSec": 54.1,
+          "tps": 20.09,
+          "laged": false,
+          "memPeakCombinedMb": 1581.9
+        },
+        {
+          "trial": 15,
+          "seed": "P2C_M4B4-15",
+          "outcome": "SUCCESS",
+          "durationSec": 151.5,
+          "wallSec": 280.8,
+          "bootSec": 32.2,
+          "tps": 19.96,
+          "laged": false,
+          "memPeakCombinedMb": 1522.4
+        },
+        {
+          "trial": 16,
+          "seed": "P2C_M4B4-16",
+          "outcome": "SUCCESS",
+          "durationSec": 77.7,
+          "wallSec": 148.7,
+          "bootSec": 32.4,
+          "tps": 19.98,
+          "laged": false,
+          "memPeakCombinedMb": 1696
+        }
+      ]
+    },
+    {
+      "lane": "Y4",
+      "port": 25604,
+      "success": 4,
+      "total": 4,
+      "lagged": 1,
+      "peakCombinedMb": 1678.1,
+      "rows": [
+        {
+          "trial": 17,
+          "seed": "P2C_M4B4-17",
+          "outcome": "SUCCESS",
+          "durationSec": 137.1,
+          "wallSec": 184.9,
+          "bootSec": 34.5,
+          "tps": 17.8,
+          "laged": true,
+          "memPeakCombinedMb": 1624.2
+        },
+        {
+          "trial": 18,
+          "seed": "P2C_M4B4-18",
+          "outcome": "SUCCESS",
+          "durationSec": 67.6,
+          "wallSec": 152.3,
+          "bootSec": 30.4,
+          "tps": 20.03,
+          "laged": false,
+          "memPeakCombinedMb": 1654.1
+        },
+        {
+          "trial": 19,
+          "seed": "P2C_M4B4-20",
+          "outcome": "SUCCESS",
+          "durationSec": 75,
+          "wallSec": 147,
+          "bootSec": 36.3,
+          "tps": 20.15,
+          "laged": false,
+          "memPeakCombinedMb": 1624.5
+        },
+        {
+          "trial": 20,
+          "seed": "P2C_M4B4-19",
+          "outcome": "SUCCESS",
+          "durationSec": 68.2,
+          "wallSec": 107.8,
+          "bootSec": 30.2,
+          "tps": 20.08,
+          "laged": false,
+          "memPeakCombinedMb": 1678.1
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-02T11:10:17.018Z"
+}

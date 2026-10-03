@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-02T11:11:00Z",
+  "machine": {
+    "visibleCores": 32,
+    "cgroupQuotaCores": 4.0,
+    "cpuMaxRaw": "400000 100000",
+    "cpuModel": "AMD EPYC 9K65 192-Core"
+  },
+  "bootGate": "global file lock in run_lane.mjs (1 world-gen at a time)",
+  "tiers": [
+    {
+      "N": 3,
+      "games": 6,
+      "success": 6,
+      "lagged": 0,
+      "tpsMedian": 19.98,
+      "tpsMin": 19.98,
+      "bootMedianSec": 29.3,
+      "memPeakMb": 1678
+    },
+    {
+      "N": 4,
+      "games": 8,
+      "success": 8,
+      "lagged": 0,
+      "tpsMedian": 19.98,
+      "tpsMin": 19.97,
+      "bootMedianSec": 30.2,
+      "memPeakMb": 1610.9
+    },
+    {
+      "N": 5,
+      "games": 10,
+      "success": 10,
+      "lagged": 0,
+      "tpsMedian": 19.99,
+      "tpsMin": 19.81,
+      "bootMedianSec": 31.3,
+      "memPeakMb": 1695.4
+    },
+    {
+      "N": 6,
+      "games": 12,
+      "success": 12,
+      "lagged": 0,
+      "tpsMedian": 19.98,
+      "tpsMin": 19.78,
+      "bootMedianSec": 32.3,
+      "memPeakMb": 1714.8
+    }
+  ],
+  "consistency": {
+    "games": 20,
+    "success": 19,
+    "lagged": 2,
+    "memPeakMb": 1713.5
+  },
+  "recommendedConcurrency": 6,
+  "note": "N=6 全绿且 cgroup 仅用 2.05/4 核，未观测到拐点；6 是已验证最大值，非天花板"
+}
