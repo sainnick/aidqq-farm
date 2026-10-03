@@ -1,0 +1,853 @@
+{
+  "run": "runs/FARM04_MAIN",
+  "farm_summary": {
+    "stamp": "FARM04_MAIN",
+    "stage": "basic-bootstrap",
+    "lanes": 6,
+    "lanesRequested": null,
+    "totalTrials": 20,
+    "success": 0,
+    "laggedGames": 6,
+    "peakCombinedMb": 1700.5
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "seed": "P2C_M4B4-01",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 67.8,
+      "wallSec": 107.5,
+      "tps": 20.03,
+      "laged": false,
+      "memPeakCombinedMb": 1657.3
+    },
+    {
+      "trial": 2,
+      "seed": "P2C_M4B4-02",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 80.5,
+      "wallSec": 227.8,
+      "tps": 16.43,
+      "laged": true,
+      "memPeakCombinedMb": 1597.3
+    },
+    {
+      "trial": 3,
+      "seed": "P2C_M4B4-03",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 4,
+      "seed": "P2C_M4B4-04",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 5,
+      "seed": "P2C_M4B4-05",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 76.8,
+      "wallSec": 119.4,
+      "tps": 20.03,
+      "laged": false,
+      "memPeakCombinedMb": 1405.4
+    },
+    {
+      "trial": 6,
+      "seed": "P2C_M4B4-06",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 41.5,
+      "wallSec": 190.6,
+      "tps": 12.8,
+      "laged": true,
+      "memPeakCombinedMb": 1649.8
+    },
+    {
+      "trial": 7,
+      "seed": "P2C_M4B4-08",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 8,
+      "seed": "P2C_M4B4-09",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 9,
+      "seed": "P2C_M4B4-10",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 125.9,
+      "wallSec": 178.2,
+      "tps": 17.5,
+      "laged": true,
+      "memPeakCombinedMb": 1700.5
+    },
+    {
+      "trial": 10,
+      "seed": "P2C_M4B4-07",
+      "outcome": "FAIL(NO_PROGRESS_ABORT)",
+      "wallSec": 324,
+      "tps": 5.14,
+      "laged": true,
+      "memPeakCombinedMb": 1661.4
+    },
+    {
+      "trial": 11,
+      "seed": "P2C_M4B4-11",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 12,
+      "seed": "P2C_M4B4-12",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 99.2,
+      "wallSec": 189.1,
+      "tps": 17.32,
+      "laged": true,
+      "memPeakCombinedMb": 1644.7
+    },
+    {
+      "trial": 13,
+      "seed": "P2C_M4B4-13",
+      "outcome": "FAIL(?)",
+      "wallSec": 672.1,
+      "tps": null,
+      "laged": false,
+      "memPeakCombinedMb": 1589.8
+    },
+    {
+      "trial": 14,
+      "seed": "P2C_M4B4-14",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 64.2,
+      "wallSec": 126.4,
+      "tps": 19.92,
+      "laged": false,
+      "memPeakCombinedMb": 1691.4
+    },
+    {
+      "trial": 15,
+      "seed": "P2C_M4B4-15",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 120.9,
+      "wallSec": 265.3,
+      "tps": 12.57,
+      "laged": true,
+      "memPeakCombinedMb": 1664.8
+    },
+    {
+      "trial": 16,
+      "seed": "P2C_M4B4-16",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 17,
+      "seed": "P2C_M4B4-17",
+      "outcome": "SERVER_FAIL",
+      "tps": null,
+      "laged": false
+    },
+    {
+      "trial": 18,
+      "seed": "P2C_M4B4-18",
+      "outcome": "NO_RESULT",
+      "wallSec": 730.1,
+      "tps": null,
+      "laged": false,
+      "memPeakCombinedMb": 1672.1
+    },
+    {
+      "trial": 19,
+      "seed": "P2C_M4B4-20",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 66.3,
+      "wallSec": 117.6,
+      "tps": 19.95,
+      "laged": false,
+      "memPeakCombinedMb": 1659.1
+    },
+    {
+      "trial": 20,
+      "seed": "P2C_M4B4-19",
+      "outcome": "FAIL(TOOL_MISSING)",
+      "durationSec": 53.1,
+      "wallSec": 88.2,
+      "tps": 19.97,
+      "laged": false,
+      "memPeakCombinedMb": 1454.1
+    }
+  ],
+  "craft_events_by_trial": {
+    "trial_01": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "no_server_window_truth": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "spruce_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_02": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "probe_unconfirmed": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "birch_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_05": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "no_server_window_truth": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "acacia_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_06": {
+      "no_gain": {
+        "probe_unconfirmed": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 4
+      },
+      "ok": {},
+      "no_gain_detail": [
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_09": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "no_server_window_truth": 1,
+        "probe_unconfirmed": 3
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "oak_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_12": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 4,
+        "no_server_window_truth": 2
+      },
+      "fail": {
+        "craft_promise_rejected": 7
+      },
+      "ok": {
+        "oak_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "acacia_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_14": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "no_server_window_truth": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "spruce_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "spruce_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_15": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 4,
+        "probe_unconfirmed": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 9
+      },
+      "ok": {
+        "oak_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 2,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "birch_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "probe_unconfirmed",
+          "cursorSource": "assumed_empty",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_19": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "no_server_window_truth": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "oak_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        }
+      ]
+    },
+    "trial_20": {
+      "no_gain": {
+        "missing_ingredient": 1,
+        "no_result": 1,
+        "no_server_window_truth": 4
+      },
+      "fail": {
+        "craft_promise_rejected": 6
+      },
+      "ok": {
+        "oak_planks": 1
+      },
+      "no_gain_detail": [
+        {
+          "item": "crafting_table",
+          "gained": 0,
+          "expected": 1,
+          "reason": "missing_ingredient",
+          "cursorSource": null,
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 1,
+          "expected": 1,
+          "reason": "no_result",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        },
+        {
+          "item": "oak_planks",
+          "gained": 0,
+          "expected": 1,
+          "reason": "no_server_window_truth",
+          "cursorSource": "ack_verified",
+          "slotCount": 46
+        }
+      ]
+    }
+  },
+  "craft_totals": {
+    "no_gain_reasons": {
+      "missing_ingredient": 9,
+      "no_result": 15,
+      "no_server_window_truth": 23,
+      "probe_unconfirmed": 15
+    },
+    "fail_errors": {
+      "craft_promise_rejected": 62
+    },
+    "ok_items": {
+      "spruce_planks": 2,
+      "birch_planks": 1,
+      "acacia_planks": 1,
+      "oak_planks": 5
+    }
+  }
+}
