@@ -1,7 +1,7 @@
 {
-  "latest": "code-20261003-1523.tar.gz",
-  "sha256": "b3a32c6d9ee11c21a4d33e8bea7dbc687cceedf23884adb0fc150eaf6bf5e938",
-  "sizeBytes": 1584038,
-  "source": { "bench/master": "1ac7e7a", "bench/cloud/lane-x": "7eacf2e", "aidqq/main": "baf9315" },
+  "latest": "code-20261003-2022.tar.gz",
+  "sha256": "3244c4673bb0736a9aca6676c82c1e62c29ba534c8137ae2a8347f2babe2c940",
+  "sizeBytes": 1930314,
+  "source": { "bench/master": "3decc2b", "bench/cloud/lane-x": "7eacf2e", "aidqq/main": "63f4c79" },
   "npmPins": { "mineflayer": "4.38.0", "mineflayer-pathfinder": "2.4.5", "minecraft-data": "3.114.0", "minecraft-protocol": "1.68.0", "prismarine-block": "1.23.0", "prismarine-chunk": "1.41.0", "prismarine-world": "3.7.0", "prismarine-recipe": "1.5.0", "prismarine-item": "1.18.0", "vec3": "0.1.10" }
 }
